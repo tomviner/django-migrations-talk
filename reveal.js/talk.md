@@ -1,6 +1,6 @@
 ## Django Migrations - Tom Viner
 
-A (pizza and) techie talk by [Tom Viner](http://tomviner.co.uk) /
+A lunch techie talk by [Tom Viner](http://tomviner.co.uk) /
 [@tomviner](http://twitter.com/tomviner)
 
 
@@ -160,9 +160,12 @@ Note: - Bye bye frozen models!
 
 ## Squashing
 
+- Operations are concatentated then optimised
+
 
 ## Merging
 
+- More than one leaf node
 
 ---
 
