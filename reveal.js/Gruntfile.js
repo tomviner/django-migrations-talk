@@ -103,14 +103,14 @@ module.exports = function(grunt) {
 					livereload: true,
 					debounceDelay: 50
 				},
-				files: [ '*.html', '*.md', 'css/theme/custom.css' ]
+				files: []// '*.html', '*.md'], 'css/theme/custom.css' ]
 			},
 			main: {
-				files: [ 'Gruntfile.js', 'js/*.js', 'css/*.css' ],
+				files: [ ],//'Gruntfile.js', 'js/*.js', 'css/*.css' ],
 				tasks: 'default'
 			},
 			theme: {
-				files: [ 'css/theme/source/*.scss', 'css/theme/template/*.scss' ],
+				files: [ ],//'css/theme/source/*.scss', 'css/theme/template/*.scss' ],
 				tasks: 'themes'
 			}
 		}
